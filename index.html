@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Controle de Estudos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Controle de Estudos</h1>
+
+        <div class="timer-section">
+            <p id="timer">00:00:00</p>
+            <button id="startBtn">Iniciar</button>
+            <button id="stopBtn" disabled>Parar</button>
+        </div>
+
+        <div class="description-section">
+            <label for="description">O que foi feito hoje?</label>
+            <textarea id="description"
+                placeholder="Ex: Estudei JavaScript, revisei funções, fiz exercícios..."></textarea>
+        </div>
+
+        <div class="save-section">
+            <button id="saveBtn">Salvar Registro</button>
+        </div>
+
+        <div class="log-section">
+            <h2>Registros</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tempo</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody id="logTable">
+                    <!-- Registros serão inseridos aqui -->
+                </tbody>
+            </table>
+        </div>
+        <div class="chart-section">
+            <h2>Gráfico de Estudos</h2>
+            <canvas id="studyChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+
+    <div class="print-section">
+        <button id="printBtn">Imprimir Relatório</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>

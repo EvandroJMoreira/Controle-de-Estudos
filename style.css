@@ -1,0 +1,150 @@
+/* Reset e base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f6f8;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1e88e5;
+  }
+  
+  /* Seções */
+  .timer-section,
+  .description-section,
+  .save-section,
+  .log-section,
+  .chart-section,
+  .print-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Cronômetro */
+  #timer {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  button {
+    padding: 0.75rem 1.2rem;
+    border: none;
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 0.2rem;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Textarea */
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-top: 0.5rem;
+  }
+  
+  /* Tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #eeeeee;
+  }
+  
+  /* Gráfico */
+  .chart-section canvas {
+    width: 100% !important;
+    max-height: 300px;
+  }
+  
+  /* Botão de impressão com ícone */
+  #printBtn::before {
+    content: "🖨️ ";
+  }
+  
+  /* Impressão */
+  @media print {
+    button,
+    textarea,
+    .description-section,
+    .timer-section,
+    .save-section,
+    .print-section {
+      display: none !important;
+    }
+  
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-size: 14px;
+      color: black;
+    }
+  
+    .container {
+      box-shadow: none;
+      background: white;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    table, th, td {
+      border: 1px solid #000;
+    }
+  
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  
+    canvas {
+      max-width: 100% !important;
+    }
+  }
+  
