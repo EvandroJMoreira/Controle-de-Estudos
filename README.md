@@ -1,6 +1,6 @@
 <h1>📚 Controle de Estudos - Aplicativo de Gerenciamento de Tempo de Estudo</h1>
 
-<p>Um aplicativo web para ajudar estudantes a monitorar e otimizar seu tempo de estudo com registro detalhado e visualização de progresso.</p>
+<p>Um aplicativo web para ajudar a monitorar e otimizar seu tempo de estudo com registro detalhado e visualização de progresso.</p>
 
 <h2>✨ Funcionalidades</h2>
   <ul>
