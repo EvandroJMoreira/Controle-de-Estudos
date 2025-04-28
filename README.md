@@ -41,3 +41,14 @@
       <li>Exportar dados para CSV/Excel</li>
       <li>Versão PWA (Progressive Web App)</li>
     </ul>
+
+  <h2>📸 Screenshots</h2>
+  <h4>Desktop</h4>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/desktop01.png" alt=200px>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/desktop02.png" alt=200px>
+
+  <h4>Mobile</h4>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/mobile.png" alt=200px>
+
+  <h4>Relatório Gerado PDF</h4>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/relatorioPdf.png" alt=200px>
