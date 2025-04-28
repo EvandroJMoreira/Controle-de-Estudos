@@ -18,3 +18,26 @@
 <h4>JavaScript Vanilla</h4>
 <h4>Chart.js (para visualização de dados)</h4>
 <h4>LocalStorage (persistência de dados)</h4>
+
+<h2>🚀 Como Usar</h2>
+<a href="https://evandrojmoreira.github.io/Controle-de-Estudos/">Clique aqui</a>
+
+<h2>📌 Recursos Implementados</h2>
+  <ul>
+    <li>✅ Cronômetro com início, pausa e continuar</li>
+    <li>✅ Registro de descrição do estudo</li>
+    <li>✅ Consolidação automática por data</li>
+    <li>✅ Visualização em tabela e gráfico</li>
+    <li>✅ Persistência de dados no navegador</li>
+    <li>✅ Modo de impressão otimizado</li>
+    <li>✅ Interface responsiva</li>
+  </ul>
+
+  <h2>🔮 Melhorias Futuras</h2>
+    <ul>
+      <li>Adicionar categorias de estudo</li>
+      <li>Implementar metas diárias/semanais</li>
+      <li>Sincronização entre dispositivos</li>
+      <li>Exportar dados para CSV/Excel</li>
+      <li>Versão PWA (Progressive Web App)</li>
+    </ul>
