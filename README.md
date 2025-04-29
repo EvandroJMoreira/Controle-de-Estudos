@@ -44,11 +44,11 @@
 
   <h2>📸 Screenshots</h2>
   <h4>Desktop</h4>
-  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/desktop01.png" width=200px>
-  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/desktop02.png" width=200px>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/desktop01.png" width=350px>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/desktop02.png" width350px>
 
   <h4>Mobile</h4>
-  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/mobile.png" width=200px>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/mobile.png" width=350px>
 
   <h4>Relatório Gerado PDF</h4>
-  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/relatorioPdf.png" width=200px>
+  <img src="https://github.com/EvandroJMoreira/Controle-de-Estudos/blob/main/assets/img/relatorioPdf.png" width=350px>
